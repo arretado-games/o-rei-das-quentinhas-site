@@ -1,0 +1,18 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}body{line-height:1;}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block;}nav ul{list-style:none;}blockquote,q{quotes:none;}blockquote::before,blockquote::after,q::before,q::after{content:'';content:none;}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}table{border-collapse:collapse;border-spacing:0;}hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body { background:url(../imgs/bg.jpg) 0 -250px no-repeat; text-align: center; font-family: Arial, sans-serif; }
+section { width: 100%; }
+article { width: 960px; padding: 35px 0; margin: 0 auto; }
+h1 { font-size: 2rem; }
+h1, h2 { font-family: 'Oswald', sans-serif; }
+
+.img { margin: 0 auto; }
+.premiacao { background:#e4bf00; height:185px; }
+.premiacao h1 { float: left; width: 306px; padding: 45px 0 0 0px; margin-right: 73px; }
+.premiacao a.logoPremio { display: block; float: left; width: 208px; height: 121px; background:url(../imgs/logo-premio.png) no-repeat; margin-right:54px; }
+.premiacao a.btVotacao { display: block; float: left; width: 218px; height:49px; background:url(../imgs/bt-votar.png) no-repeat; position:relative; top:39px; }
+.premiacao a.btVotacao:active { background-position:bottom; }
+
+footer { background:#fff940; text-align: center; }
+footer a { color: #af9200; }
+footer .facebook { display: block; margin:20px auto 0 auto; width: 38px; height: 43px; background: url(../imgs/facebook.png) no-repeat; }

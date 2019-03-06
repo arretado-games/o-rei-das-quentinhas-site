@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face{
+    font-family: tekton;
+    src: url('./fontes/tekton.otf');
+}
+
+.hidden{
+    font-family: tekton;
+    visibility: hidden;
+    position: absolute;
+}
