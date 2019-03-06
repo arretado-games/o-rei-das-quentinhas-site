@@ -7,11 +7,8 @@ h1 { font-size: 2rem; }
 h1, h2 { font-family: 'Oswald', sans-serif; }
 
 .img { margin: 0 auto; }
-.premiacao { background:#e4bf00; height:185px; }
-.premiacao h1 { float: left; width: 306px; padding: 45px 0 0 0px; margin-right: 73px; }
-.premiacao a.logoPremio { display: block; float: left; width: 208px; height: 121px; background:url(../imgs/logo-premio.png) no-repeat; margin-right:54px; }
-.premiacao a.btVotacao { display: block; float: left; width: 218px; height:49px; background:url(../imgs/bt-votar.png) no-repeat; position:relative; top:39px; }
-.premiacao a.btVotacao:active { background-position:bottom; }
+.informacoes { background:#e4bf00; height:185px; text-align: center}
+.informacoes h1 { padding: 45px 0 0 0;  }
 
 footer { background:#fff940; text-align: center; }
 footer a { color: #af9200; }
